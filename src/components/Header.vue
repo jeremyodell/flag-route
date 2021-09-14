@@ -4,11 +4,7 @@
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <img
-              class="h-8 w-8"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-300.svg"
-              alt="Workflow"
-            />
+            <img class="h-8 w-8" src="../assets/logo.png" alt="Flags BSA" />
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
@@ -258,9 +254,9 @@ export default {
     return {
       navigation: [
         { name: 'Dashboard', href: '/', current: true },
-        { name: 'Team', href: '/about', current: false },
-        { name: 'Projects', href: '#', current: false },
-        { name: 'Calendar', href: '#', current: false },
+        { name: 'Routes', href: '/route', current: false },
+        { name: 'Subscriptions', href: '#', current: false },
+        { name: 'Map', href: '#', current: false },
         { name: 'Reports', href: '#', current: false },
       ],
       userNavigation: [
