@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CCR Flag Routes</name>
+    <description>Click the area to get contact info.</description>
+    <Style id="poly-0288D1-7101-76-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4cd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-7101-76-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>10.6515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4cd18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-7101-76">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-7101-76-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-7101-76-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Troop 106</name>
+      <Placemark>
+        <name>Scout Carson Odell</name>
+        <description><![CDATA[jeremyodell@gmail.com<br>713-306-3956]]></description>
+        <styleUrl>#poly-0288D1-7101-76</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -95.8543749,29.69825,0
+                -95.8521647,29.6967123,0
+                -95.8502818,29.6987114,0
+                -95.8506224,29.6996177,0
+                -95.8512206,29.7004681,0
+                -95.8543749,29.69825,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Scout Carson Odell</name>
+        <description><![CDATA[jeremyodell@gmail.com<br>713-306-3956]]></description>
+        <styleUrl>#poly-0288D1-7101-76</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -95.8596167,29.7034751,0
+                -95.858222,29.7003439,0
+                -95.8558187,29.700903,0
+                -95.8541235,29.7016672,0
+                -95.8535871,29.7025246,0
+                -95.8552823,29.7038665,0
+                -95.8596167,29.7034751,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Scout Bennett Ramsey - 106</name>
+        <description>xxx</description>
+        <styleUrl>#poly-0288D1-7101-76</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -95.8509778,29.7020343,0
+                -95.8514928,29.7007017,0
+                -95.8512206,29.7004681,0
+                -95.8506224,29.6996177,0
+                -95.8501624,29.6984743,0
+                -95.8475445,29.69867,0
+                -95.8475231,29.7005433,0
+                -95.8484565,29.7011211,0
+                -95.8495938,29.7017548,0
+                -95.8509778,29.7020343,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+  </Document>
+</kml>
