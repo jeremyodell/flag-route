@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>test</name>
+    <description/>
+    <Style id="poly-FFD600-6401-77-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>6.401</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00d6ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFD600-6401-77-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>9.6015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00d6ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFD600-6401-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFD600-6401-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFD600-6401-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[Carson's Route]]></name>
+      <Placemark>
+        <name><![CDATA[Carson's Route]]></name>
+        <description><![CDATA[Carson Odell<br>jeremyodell@gmail.com]]></description>
+        <styleUrl>#poly-FFD600-6401-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -95.8530927,29.6989567,0
+                -95.853951,29.6981366,0
+                -95.8519983,29.6967014,0
+                -95.8502388,29.6988635,0
+                -95.8513117,29.7001496,0
+                -95.8530927,29.6989567,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+  </Document>
+</kml>
